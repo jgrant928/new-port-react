@@ -1,0 +1,352 @@
+main {
+	margin: 0 auto;
+	max-width: 90%;
+  padding: 50px 30px;
+  
+}
+:root {
+  --primary: white;
+  --secondary: #583e23;
+  --tertiary: #b0a084;
+  --light: #e9e6ff;
+  --dark: #13262f;
+  --darker: #111111;
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+  
+
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+html {
+
+}
+
+body {
+  background-image: url('./images/Ripped_Black_Paper_6.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: .1em;
+  color: var(--light);
+  font-family: 'PT Serif', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding-bottom: 3rem;
+  font-weight: 300;
+}
+
+h1 a {
+  font-size: 2.2rem;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+  color: var(--primary);
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 2px 4px;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+header h1 {
+  display: inline-block;
+  margin-left: 2rem;
+
+}
+
+header a {
+  color: var(--light);
+}
+
+header nav {
+  padding-top: 15px;
+  margin-right: 40px;
+  float: right;
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  top: 30;
+}
+
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+
+
+.footer h2, .footer div {
+  font-size: 15px;
+}
+
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary);
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: .8;
+}
+
+img {
+  max-width: 100%;
+}
+
+.about-me img {
+  border-radius: 50%;
+}
+
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+li {
+  list-style: none;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav  li {
+  cursor: pointer;
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+.container-nav {
+  width: 80%;
+  margin: 0 auto;
+}
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.mx-1 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
+}
+
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
+
+.my-1 {
+  margin-top: var(--spacing-one);
+  margin-bottom: var(--spacing-one);
+}
+
+.my-2 {
+  margin-top: var(--spacing-two);
+  margin-bottom: var(--spacing-two);
+}
+
+.my-5 {
+  margin-top: var(--spacing-five);
+  margin-bottom: var(--spacing-five);
+}
+
+
+.card {
+  width: 25%;
+  text-align: center;
+}
+
+.img-thumbnail {
+  width: auto;
+  height: 250px;
+  cursor: pointer;
+  border: 0 none;
+}
+
+button {
+	background: var(--primary);
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
+
+
+
+.navActive {
+  color: var(--secondary);
+}
+
+.follow {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.follow div {
+  display: inline-block;
+
+}
+
+.follow img {
+  width: 30px;
+  height: 30px;
+}
+
+.module {
+  width: auto;
+  position: relative;
+  opacity: .9;
+  display: inline-block;
+  margin: 0 20px 40px;
+  justify-content: space-around;
+
+}
+
+.module:hover .overlay {
+  opacity: .9;
+}
+
+.text {
+  color: black;
+  font-size: 19px;
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
