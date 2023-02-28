@@ -8,7 +8,7 @@ import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 
 function App() {
-  const categories = ["projects", "photography"];
+  const categories = ["projects"];
   const [contactSelected, setContactSelected] = useState(false);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
   const [resumeSelected, setResumeSelected] = useState(false);

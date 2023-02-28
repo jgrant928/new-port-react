@@ -15,7 +15,7 @@ function Resume() {
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>
-          <li>responsive design</li>
+          <li>Responsive Design</li>
           <li>jQuery</li>         
           <li>React</li>
           <li>Bootstrap</li>
