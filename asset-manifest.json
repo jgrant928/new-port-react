@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/new-port-react/static/css/main.270701eb.css",
+    "main.js": "/new-port-react/static/js/main.ca5a7fe7.js",
+    "index.html": "/new-port-react/index.html",
+    "main.270701eb.css.map": "/new-port-react/static/css/main.270701eb.css.map",
+    "main.ca5a7fe7.js.map": "/new-port-react/static/js/main.ca5a7fe7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.270701eb.css",
+    "static/js/main.ca5a7fe7.js"
+  ]
+}
