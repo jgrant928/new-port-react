@@ -1,6 +1,5 @@
 import React from 'react';
 import Nav from '../Nav';
-import icon from '../icons/icon-1.png'
 
 function Header(props) {
   const {
@@ -18,7 +17,7 @@ function Header(props) {
   return (
     <header>
       <h1>
-      <a href="#home"><img src={icon} alt="briefcase" width="18%"/> Nathalie</a>
+      Home
       </h1>
       <Nav categories={categories}
         setCurrentCategory={setCurrentCategory}

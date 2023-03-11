@@ -4,55 +4,55 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test",
-      "eject": "react-scripts eject",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "repository": {
-      "type": "git",
-      "url": ""
+        "type": "git",
+        "url": ""
     },
     "keywords": [],
     "author": "",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/jgrant928/new-port-react"
+        "url": "https://github.com/jgrant928/new-port-react"
     },
     "dependencies": {
-      "@testing-library/jest-dom": "^5.16.2",
-      "@testing-library/react": "^12.1.2",
-      "@testing-library/user-event": "^13.5.0",
-      "emailjs-com": "^3.2.0",
-      "react": "^17.0.2",
-      "react-dom": "^17.0.2",
-      "react-icons": "^4.3.1",
-      "react-scripts": "^5.0.1",
-      "swiper": "^8.0.6",
-      "web-vitals": "^2.1.4"
+        "@testing-library/jest-dom": "^5.16.2",
+        "@testing-library/react": "^12.1.2",
+        "@testing-library/user-event": "^13.5.0",
+        "emailjs-com": "^3.2.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-icons": "^4.3.1",
+        "react-scripts": "^5.0.1",
+        "swiper": "^8.0.6",
+        "web-vitals": "^2.1.4"
     },
     "eslintConfig": {
-      "extends": [
-        "react-app",
-        "react-app/jest"
-      ]
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
     },
     "browserslist": {
-      "production": [
-        ">0.2%",
-        "not dead",
-        "not op_mini all"
-      ],
-      "development": [
-        "last 1 chrome version",
-        "last 1 firefox version",
-        "last 1 safari version"
-      ]
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
     },
     "homepage": "https://jgrant928.github.io/new-port-react/",
     "devDependencies": {
-      "gh-pages": "^5.0.0"
+        "gh-pages": "^5.0.0"
     }
-  }
+}

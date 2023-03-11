@@ -1,5 +1,4 @@
 import React from 'react';
-import MyPDF from '../files/2021_resume_ncunanan.pdf';
 
 
 function Resume() {
@@ -7,7 +6,7 @@ function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <p>Download <a href={MyPDF} download="My_File.pdf">Resume. </a></p>
+      {/* <p>Download <a href={MyPDF} download="My_File.pdf">Resume. </a></p> */}
       
       <section>
         <h5>Front-End Proficiencies:</h5>

@@ -1,54 +1,84 @@
-import React, {useState} from 'react';
-import Project from '../Project';
+// import React, {useState} from 'react';
 
-const PhotoList = ({currentCategory}) => {
-
-  const [photos] = useState([
-    {
-      name: 'projects',
-      description: 'Brews n Chews',
-      link: "",
-      github:"https://github.com/",
-      id: 0
-    },
-    { name: 'projects', description: 'Quarter Arcade,',
-      link: "",
-      github: "",
-       id: 1},
-    { name: 'projects', description: 'Weather Dashboard, Web API', 
-      link:"",
-      github: "",
-      id: 2 },
-    { name: 'projects', 
-      description: '', 
-      link:"",
-      github: "",
-      id: 3 },
-    {
-      name: 'projects',
-      description: '',
-      link:"",
-      github: "",
-      id: 4
-    },
-    { name: 'projects', description: '',
-      link:"",
-      github: "",
-      id: 5 }
-    ])
-return (
-    <div>
-        {currentPhotos.map((image) => (
-          <Project name={image.name}
-            description={image.description}
-            link={image.link}
-            github={image.github}
-            id={image.id}/>
-        ))}
-    </div>
-    )
-}
+// import IMG1 from '../../images/BrewsnChews.png'
+// import IMG2 from '../../images/professional portfolio.png'
+// import IMG3 from '../../images/QuarterArcade.png'
 
 
+// const data = [
+//   {
+//     id: 1,
+//     image: IMG1,
+//     title: '',
+//     github: '',
+//     demo: ''
+//   },
+//   {
+//     id: 2,
+//     image: IMG2,
+//     title: "Brews 'N Chews: A Brewery and Restaurant Locator",
+//     github: 'https://github.com/mdh1080/Brews-and-Chews',
+//     demo: 'https://mdh1080.github.io/Brews-and-Chews/'
+//   },
+//   {
+//     id: 3,
+//     image: IMG3,
+//     title: '',
+//     github: '',
+//     demo: ''
+//   },
+//   {
+//     id: 4,
+//     image: IMG4,
+//     title: '',
+//     github: '',
+//     demo: ''
+//   },
+//   {
+//     id: 5,
+//     image: IMG5,
+//     title: '',
+//     github: '',
+//     demo: ''
+//   },
+//   {
+//     id: 6,
+//     image: IMG6,
+//     title: '',
+//     github: '',
+//     demo: ''
+//   }
+// ]
 
-export default PhotoList;
+
+ 
+
+// const Portfolio = () => {
+//       return (
+//     <section className='portfolio'>
+//     <h5>My Recent Work</h5>
+//     <h2>Portfolio</h2>
+
+//     <div className="container portfolio__container">
+//       {
+//         data.map(({id, image, title, github, demo}) => {
+//           return (
+//             <article key={id} className='portfolio__item'>
+//             <div className="portfolio__item-image">
+//               <img src={image} alt={title} />
+//             </div>
+//             <h3>{title}</h3>
+//             <div className="portfolio__item-cta">
+//               <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
+//               <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+//             </div>
+//           </article>
+//           )
+//         })
+//       }
+//     </div>
+//   </section>
+// )
+// }
+
+// export default Portfolio
