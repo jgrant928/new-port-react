@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/new-port-react/static/css/main.366be408.css",
-    "main.js": "/new-port-react/static/js/main.86541a16.js",
+    "main.css": "/new-port-react/static/css/main.819a40c0.css",
+    "main.js": "/new-port-react/static/js/main.7ec64507.js",
     "static/media/BrewsnChews.png": "/new-port-react/static/media/BrewsnChews.b8dad4e62810147285c5.png",
     "static/media/professionalPortfolio.png": "/new-port-react/static/media/professionalPortfolio.5afedac5efe48af921a1.png",
     "static/media/QuarterArcade.png": "/new-port-react/static/media/QuarterArcade.00bd0f195a1b0da1cbe7.png",
     "static/media/getMoving.png": "/new-port-react/static/media/getMoving.d98451ae5e462d113444.png",
     "index.html": "/new-port-react/index.html",
-    "main.366be408.css.map": "/new-port-react/static/css/main.366be408.css.map",
-    "main.86541a16.js.map": "/new-port-react/static/js/main.86541a16.js.map"
+    "main.819a40c0.css.map": "/new-port-react/static/css/main.819a40c0.css.map",
+    "main.7ec64507.js.map": "/new-port-react/static/js/main.7ec64507.js.map"
   },
   "entrypoints": [
-    "static/css/main.366be408.css",
-    "static/js/main.86541a16.js"
+    "static/css/main.819a40c0.css",
+    "static/js/main.7ec64507.js"
   ]
 }
