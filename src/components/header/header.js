@@ -1,20 +1,39 @@
 import React from 'react';
+import Nav from '../nav/Nav';
 import './header.css'
 
 
-const Header = () => {
+function Header(props) {
+  const {
+    categories = [],
+    setCurrentCategory,
+    currentCategory,
+    contactSelected,
+    setContactSelected,
+    resumeSelected,
+    setResumeSelected,
+    aboutSelected,
+    setAboutSelected,
+  } = props;
+
   return (
     <header>
-      <div className="container header__container">
-      <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-        <h1>John Grant</h1>
-      </div>
+      <h1>
+      <a href="#home">John Grant</a>
+      </h1>
+      <Nav categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+        resumeSelected={resumeSelected}
+        setResumeSelected={setResumeSelected}
+        aboutSelected={aboutSelected}
+        setAboutSelected={setAboutSelected}
+        ></Nav>
+        
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

@@ -1,29 +1,18 @@
 
 
 .container.contact__container {
-    /* // center contact form */
-    margin: auto;
-
-    /* // set width */
-    width: 100%;
+    width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
-    background-color: green;
-  }
-
-  h2 {
-    /* // center text */
-    text-align: center;
-    color: var(--color-dark);
-    margin:auto;
-    font-size: 2.5rem;
+    margin: auto;
   }
 
   .contact{
     top: -3rem;
     position: relative;
     margin: auto;
+    background-color: gray;
   }
   
   .contact__options {
@@ -33,7 +22,7 @@
   }
   
   .contact__option {
-    background: var(--color-bg-variant);
+    background: gray;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -43,7 +32,7 @@
   
   .contact__option:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: green;
   }
   
   .contact__option-icon {
@@ -52,7 +41,7 @@
   }
   
   .contact__option h5 {
-    color: var(--color-light);
+    color: yellowgreen;
   }
   
   .contact__option a {
@@ -66,17 +55,19 @@
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    background: transparent;
   }
   
   input,
   textarea {
+    margin: 10px;;
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid black;
     resize: none;
-    color: var(--color-white);
+    
   }
   
   /* ================ Medium Device Media Queries ================= */

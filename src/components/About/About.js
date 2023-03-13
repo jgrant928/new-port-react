@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import ME from '../../assets/avatar-pic-2.jpg'
 
 
 const About = () => {
@@ -13,12 +14,13 @@ const About = () => {
           </div>
         </div>
 
+        <div className="about__me-image">
+            <img src={ME} alt="About Image" />
+          </div>
         <div className="about__content">
-          <p>
-          My name is John Grant and I am a content strategist, designer, writer and full-stack developer          </p>
-
-          <a href="#contact" className='btn btn-primary'>Let's Connect!</a>
-        </div>
+          <h3> My name is John Grant and I am a content strategist, designer, writer and full-stack developer      
+        </h3>
+      </div>
       </div>
     </section>
   )

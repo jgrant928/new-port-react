@@ -27,6 +27,8 @@ export const Contact = () => {
             <a href="mailto:jsgrant928@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
+
+        <break></break>
   
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />

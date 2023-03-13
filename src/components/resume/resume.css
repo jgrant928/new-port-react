@@ -1,0 +1,10 @@
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
